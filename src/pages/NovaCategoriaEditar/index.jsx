@@ -1,19 +1,19 @@
 import styles from "./NovaCategoriaEditar.module.css";
 import Container from "@mui/material/Container";
 import FormNovaCategoria from "../../components/FormNovaCategoria";
-import { useNavigate, useParams } from "react-router-dom";
-import { categories, videos } from "../../data/db";
 import { useState } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { categories, videos } from "../../data/db";
 
 export default function NovaCategoriaEditar() {
   const { id } = useParams();
   const categoryToEdit = categories.find((c) => String(c.id) === id);
 
-  let [name, setName] = useState(categoryToEdit.categoryDisplayName);
+  const [name, setName] = useState(categoryToEdit?.categoryDisplayName || "");
   const [description, setDescription] = useState(
-    categoryToEdit.categoryDescription
+    categoryToEdit?.categoryDescription || ""
   );
-  const [color, setColor] = useState(categoryToEdit.categoryColor);
+  const [color, setColor] = useState(categoryToEdit?.categoryColor || "");
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
@@ -26,15 +26,15 @@ export default function NovaCategoriaEditar() {
 
   const aoMudar = () => {
     const videoExist = videos.some(
-      (v) => v.categoryName === categoryToEdit.categoryName
+      (v) => v.categoryName === categoryToEdit?.categoryName
     );
 
-    if (videoExist && name !== categoryToEdit.categoryDisplayName) {
+    if (videoExist && name !== categoryToEdit?.categoryDisplayName) {
       setError(true);
       setErrorMessage(
         "Categoria já existe em videos criados. Não é possível alterar nome da categoria"
       );
-      setName(categoryToEdit.categoryDisplayName);
+      setName(categoryToEdit?.categoryDisplayName);
     }
 
     const demaisCategorias = categories.filter((c) => String(c.id) !== id);
@@ -58,11 +58,11 @@ export default function NovaCategoriaEditar() {
     ev.preventDefault();
 
     if (!error) {
-      (categoryToEdit.categoryName = name.toLowerCase().replace(/\s/g, "")),
-        (categoryToEdit.categoryDisplayName = name);
-      (categoryToEdit.categoryColor = color),
-        (categoryToEdit.categoryDescription = description),
-        alert("Categoria alterada com sucesso!");
+      categoryToEdit.categoryName = name.toLowerCase().replace(/\s/g, "");
+      categoryToEdit.categoryDisplayName = name;
+      categoryToEdit.categoryColor = color;
+      categoryToEdit.categoryDescription = description;
+      alert("Categoria alterada com sucesso!");
       navigate(-1);
     }
   };
@@ -91,3 +91,5 @@ export default function NovaCategoriaEditar() {
     </Container>
   );
 }
+
+

@@ -7,13 +7,15 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+babel.coconfig.json
+
 node_modules
 dist
 dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
+
 !.vscode/extensions.json
 .idea
 .DS_Store

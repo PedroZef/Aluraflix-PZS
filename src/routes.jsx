@@ -19,6 +19,7 @@ function AppRoutes() {
           />
         </Route>
       </Routes>
+   
     </BrowserRouter>
   );
 }

@@ -1,6 +1,19 @@
-# React + Vite
+# Projeto Challenge Aluraflix Turma 5 da Alura + Oracle  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto Challenge do Aluraflix-PZS é ser um Netflix da Alura. Nele você terá sugestões de vídeos relacionados com os seus interesses educacionais, além disso poderá adicionar novas categorias e novos videos.
+
+## Aluraflix-PZS 
+
+Tecnologias Utilizadas:
+
+ React JS + Vite 
+
+ Material UI
+
+Resultado:https://aluraflix-pzs-vercel.vercel.app
+
+Link do Parabéns e badge:[!Badge-Aluraflix.png]
+
 
 Currently, two official plugins are available:
 

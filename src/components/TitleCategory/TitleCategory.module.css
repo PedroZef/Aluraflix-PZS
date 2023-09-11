@@ -16,7 +16,7 @@
 }
 
 .title h2 {
-  color: var(--color-gray-light);
+  color: var(--color-white);
   text-align: center;
 
   /* @title-small */
@@ -27,7 +27,7 @@
 }
 
 .section p {
-  color: var(--color-gray-light);
+  color: var(--color-white);
   padding-left: 0.5rem;
   /* @body-medium */
   font-size: 1.125rem;

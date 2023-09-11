@@ -17,7 +17,7 @@ export default function Header({ children }) {
         src={logosm}
         alt="Logotipo Alura"
       />
-      <Button bgcolor="black" onClick={() => navigate("/novovideo")}>
+      <Button className={styles.btn} bgcolor="black" onClick={() => navigate("/novovideo")}>
         {children}
       </Button>
     </div>

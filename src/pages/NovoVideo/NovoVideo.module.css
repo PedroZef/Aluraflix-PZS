@@ -60,11 +60,8 @@
   display: flex;
 }
 
-.button[_button] {
-  display: none;
-}
 
-@media(max-width: 300px) {
+@media(max-width: 420px) {
   .form{
     display: flex;
     align-items: center;
