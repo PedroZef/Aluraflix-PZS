@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import styles from "./VideosTable.module.css";
-import { categories } from "../../data/db.js";
+import { categories } from "../../data/db";
 
 export default function VideosTable({ onRemove, onEdit }) {
   function createData(categoryDisplayName, description, edit, remove, id) {

@@ -16,7 +16,7 @@ export default function Banner({
       <div
         className={styles.banner}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(${videoImgLink})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(${videoImgLink})`,
         }}
       >
         <div className={styles.banner_left}>
@@ -36,7 +36,7 @@ export default function Banner({
         <div
           className={styles.player}
           style={{
-            border: `4px solid ${categoryColor}`,
+            border: `2px solid ${categoryColor}`,
           }}
         >
           <Link to={videoLink} target="_blank">

@@ -57,32 +57,32 @@
 
   "categories": [
     {
-      "id": 1,
+      "id": 11,
       "categoryName": "frontend",
       "categoryDisplayName": "Front End",
       "categoryDescription": "Formação frontend na Alura",
       "categoryColor": "#6bd1ff"
     },
     {
-      "id": 2,
+      "id": 12,
       "categoryName": "datascience",
       "categoryDisplayName": "Data Science",
       "categoryDescription": "Formação datascience na Alura",
       "categoryColor": "#69953b"
     },
     {
-      "id": 3,
+      "id": 13,
       "categoryName": "mobile",
       "categoryDisplayName": "Mobile",
       "categoryDescription": "Formação mobile na Alura",
       "categoryColor": "#ffba05"
     },
     {
-      "id": 4,
+      "id": 14,
       "categoryName": "backend",
       "categoryDisplayName": "Backend",
       "categoryDescription": "Formação backend na Alura",
-      "categoryColor": "#h1h5h8"
+      "categoryColor": "#69953B"
     }
   ]
 }

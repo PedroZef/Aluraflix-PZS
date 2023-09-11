@@ -23,3 +23,7 @@
     height: 40px;
 }
 }
+
+.button[button] {
+  display: none;
+}

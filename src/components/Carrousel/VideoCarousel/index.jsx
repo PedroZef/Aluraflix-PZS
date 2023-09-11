@@ -27,7 +27,7 @@ export default function VideoCarousel({ categoria }) {
       customTransition="all .5"
       transitionDuration={500}
       containerClass="carousel-container"
-      removeArrowOnDeviceType={["tablet", "mobile"]}
+      removeArrowOnDeviceType={["tablet", "mobile", "backend"]}
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
       className={styles.container}

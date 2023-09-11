@@ -7,7 +7,7 @@ export default function VideoCard({ videoLink, categoryColor, videoCover }) {
       <div
         className={styles.videoCard}
         style={{
-          border: `4px solid ${categoryColor}`,
+          border: `2px solid ${categoryColor}`,
         }}
       >
         <img src={videoCover} alt="Capa Video" />

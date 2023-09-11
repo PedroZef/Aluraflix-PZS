@@ -2,14 +2,20 @@
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  width: 27rem;
-  height: 16rem;
+  margin-bottom: 2rem;
+  left: 40px;
+  width: 20rem;
+  height: 14rem;
   flex-shrink: 0;
-  border-radius: 0.25rem;
+  border-radius: 0.2rem;
 }
 
 .videoCard img {
- 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 100%;
 }
+
+

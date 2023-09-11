@@ -29,7 +29,7 @@
   width: 85rem;
   height: 3.125rem;
   flex-shrink: 0;
-  color: var(--color-gray-medium, #e5e5e5);
+  color: var(--color-gray-light, #e5e5e5);
   font-family: Roboto;
   font-size: 0.75rem;
   font-style: normal;
@@ -39,14 +39,14 @@
 
 .multilineField {
   border-radius: 0.25rem;
-  background: var(--color-gray-medium, #53585d);
+  background: var(--color-gray, #53585d);
   flex-shrink: 0;
   color: var(--color-gray-medium, #e5e5e5);
   font-family: Roboto;
   font-size: 0.75rem;
   font-style: normal;
   font-weight: 300;
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .inputColor {
