@@ -1,0 +1,68 @@
+.banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 820px;
+  display: flex;
+  align-items: center;
+}
+
+.banner_left {
+  padding: 2.94rem;
+}
+
+.title {
+  border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 18.5rem;
+  max-width: fit-content;
+  height: 5.75rem;
+  flex-shrink: 0;
+  margin-bottom: 2.5rem;
+}
+.title h1 {
+  padding: 0.25;
+  color: var(--color-gray-light);
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subtitle h2 {
+  color: var(--color-gray-light);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.description {
+  width: 41rem;
+  height: 6.875rem;
+  flex-shrink: 0;
+}
+
+.description p {
+  color: var(--color-gray-light);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.player {
+  width: 40rem;
+  height: 20rem;
+  flex-shrink: 0;
+  border-radius: 0.2rem;
+  margin-right: 2rem;
+  justify-content: space-between;
+}
+
+.player img {
+  width: 100%;
+  height: 100%;
+}

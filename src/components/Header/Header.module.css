@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px;
+  padding: 20px 40px;
+  border-bottom: solid 1px var(--color-primary);
+}
+
+.logo {
+  height: 40px;
+}
+
+.header .button {
+  color: white;
+  border-color: white;
+  background-color: black;
+}
+
+@media(max-width: 768px) {
+  img{
+    max-width: 320px;
+    height: 40px;
+}
+}

@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  padding-left: 3rem;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  width: 12.75rem;
+  height: 3.75rem;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 0.25rem;
+}
+
+.title h2 {
+  color: var(--color-gray-light);
+  text-align: center;
+
+  /* @title-small */
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section p {
+  color: var(--color-gray-light);
+  padding-left: 0.5rem;
+  /* @body-medium */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
