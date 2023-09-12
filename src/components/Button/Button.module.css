@@ -15,7 +15,7 @@
 }
 
 .blue {
-  background-color: var(--color-primary-medium);
+  background-color: var(--color-primary);
   color: white;
   border: none;
 }
@@ -25,3 +25,5 @@
   color: black;
   border: none;
 }
+
+

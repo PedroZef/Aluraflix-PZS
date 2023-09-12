@@ -47,7 +47,7 @@ export default function NovoVideo() {
   };
 
   return (
-
+  
     
     <Container>
       <form className={styles.form} onSubmit={onSave}>
