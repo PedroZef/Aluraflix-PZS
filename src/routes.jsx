@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter,  Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import NovoVideo from "./pages/NovoVideo";
 import PaginaPadrao from "./pages/PaginaPadrao";
@@ -17,6 +17,7 @@ function AppRoutes() {
             path="/novacategoria/editar/:id"
             element={<NovaCategoriaEditar />}
           />
+      
         </Route>
       </Routes>
    

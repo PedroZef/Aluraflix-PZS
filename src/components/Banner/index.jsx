@@ -2,6 +2,7 @@
 
 import { Link } from "react-router-dom";
 import styles from "./Banner.module.css";
+import backgroundImage from "./bannerBG.png"
 
 export default function Banner({
   videoImgLink,

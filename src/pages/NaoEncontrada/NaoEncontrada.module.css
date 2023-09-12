@@ -1,4 +1,4 @@
 .texto {
-  color: white;
+  color: var(--color-white);
   text-align: center;
 }

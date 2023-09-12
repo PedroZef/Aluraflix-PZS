@@ -2,15 +2,15 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "./VideoCarousel.module.css";
 import VideoCard from "../VideoCard";
-import { videos, categories } from "../../../data/db";
+import { videos, categories } from "../../../data/db.js";
 
 // eslint-disable-next-line react/prop-types
 export default function VideoCarousel({ categoria }) {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
-      slidesToSlide: 4, // optional, default to 1.
+      items: 3,
+      slidesToSlide: 3, // optional
     },
   };
 
@@ -41,7 +41,7 @@ export default function VideoCarousel({ categoria }) {
                 categories.find(
                   (category) => category.categoryName === categoria
                 ) === undefined
-                  ? "#f0f0f0"
+                  ? "#fff"
                   : categories.find(
                       (category) => category.categoryName === categoria
                     ).categoryColor
