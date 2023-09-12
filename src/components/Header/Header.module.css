@@ -12,9 +12,9 @@
 }
 
 .header .button {
-  color: white;
-  border-color: white;
-  background-color: black;
+  color:var(--color-white);
+  border-color:var(--color-white);
+  background-color:var(--color-black);
 }
 
 @media(max-width: 768px) {
@@ -22,8 +22,4 @@
     max-width: 320px;
     height: 40px;
 }
-}
-
-.button[button] {
-  display: none;
 }

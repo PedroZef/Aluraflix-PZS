@@ -11,8 +11,8 @@
     },
     {
       "id": 2,
-      "categoryName": "mobile",
-      "categoryDisplayName": "Mobile",
+      "categoryName": "frontend",
+      "categoryDisplayName": "Frontend",
       "title": "SEO with React + NextJS + Deploy + Static Websites feat. Performance Tips | Pokedex",
       "description": "I'm here in this video to tell you that we will start an app inspired in the Pokémon animation with Nextjs and React, see some performance tips and know more about an AMAZING platform to deploy that is Vercel. All of it and much more in this first 22 minutes of video of this new serie building an Pokedex!",
       "videoImgLink": "https://i.ytimg.com/vi/c8mVlakBESE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhkFUxgkWQ9ytW1xzdF1VlsI-u-A",
@@ -29,15 +29,17 @@
     },
     {
       "id": 4,
-      "categoryName": "frontend",
-      "title": "Como usar Async/Await? Promises no JavaScript? ",
-      "description": "Eu vim falando desse video a um tempo já e ele chegou! Finalmente você vai parar de sofrer com async/await entendendo na prática como usar esses recursos do JavaScript vendo a essência, bora ver?",
-      "videoImgLink": "https://i.ytimg.com/vi/q28lfkBd9F4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI9Q1UsDKCaoodrFCRODWQLIDT5A",
-      "videoLink": "https://www.youtube.com/watch?v=q28lfkBd9F4"
+      "categoryName": "mobile",
+      "categoryDisplayName": "Mobile",
+      "title": "SEO with React + NextJS + Deploy + Static Websites feat. Performance Tips | Pokedex",
+      "description": "I'm here in this video to tell you that we will start an app inspired in the Pokémon animation with Nextjs and React, see some performance tips and know more about an AMAZING platform to deploy that is Vercel. All of it and much more in this first 22 minutes of video of this new serie building an Pokedex!",
+      "videoImgLink": "https://i.ytimg.com/vi/c8mVlakBESE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhkFUxgkWQ9ytW1xzdF1VlsI-u-A",
+      "videoLink": "https://www.youtube.com/watch?v=c8mVlakBESE"
     },
+  
     {
       "id": 5,
-      "categoryName": "backend",
+      "categoryName": "frontend",
       "title": "Como usar Async/Await? Promises no JavaScript? ",
       "description": "Eu vim falando desse video a um tempo já e ele chegou! Finalmente você vai parar de sofrer com async/await entendendo na prática como usar esses recursos do JavaScript vendo a essência, bora ver?",
       "videoImgLink": "https://i.ytimg.com/vi/q28lfkBd9F4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI9Q1UsDKCaoodrFCRODWQLIDT5A",
@@ -45,13 +47,21 @@
     },
     {
       "id": 6,
+      "categoryName": "backend",
+      "title": "Como usar Async/Await? Promises no JavaScript? ",
+      "description": "Eu vim falando desse video a um tempo já e ele chegou! Finalmente você vai parar de sofrer com async/await entendendo na prática como usar esses recursos do JavaScript vendo a essência, bora ver?",
+      "videoImgLink": "https://i.ytimg.com/vi/q28lfkBd9F4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAI9Q1UsDKCaoodrFCRODWQLIDT5A",
+      "videoLink": "https://www.youtube.com/watch?v=q28lfkBd9F4"
+    },
+
+    {
+      "id": 7,
       "categoryName": "frontend",
-      "categoryDisplayName": "Frontend",
-      "title": "SEO with React + NextJS + Deploy + Static Websites feat. Performance Tips | Pokedex",
-      "description": "I'm here in this video to tell you that we will start an app inspired in the Pokémon animation with Nextjs and React, see some performance tips and know more about an AMAZING platform to deploy that is Vercel. All of it and much more in this first 22 minutes of video of this new serie building an Pokedex!",
-      "videoImgLink": "https://i.ytimg.com/vi/c8mVlakBESE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAhkFUxgkWQ9ytW1xzdF1VlsI-u-A",
-      "videoLink": "https://www.youtube.com/watch?v=c8mVlakBESE"
-    
+      "categoryDisplayName": "Front End",
+      "title": "SEO com React",
+      "description": "Esse desafio é uma forma de aprendizado. É um mecanismo onde você pode se engajar na resolução de um problema para poder aplicar todo o conhecimento adquirido na Formação React.",
+      "videoImgLink": "https://i.ytimg.com/vi/CkGh3NM6NuQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD79B2LmiUGAsOi4X_59tFtFtxQPw",
+      "videoLink": "https://www.youtube.com/watch?v=CkGh3NM6NuQ"
     }
   ],
 
@@ -67,22 +77,22 @@
       "id": 12,
       "categoryName": "datascience",
       "categoryDisplayName": "Data Science",
-      "categoryDescription": "Formação datascience na Alura",
+      "categoryDescription": "Formação Data Science na Alura",
       "categoryColor": "#69953b"
     },
     {
       "id": 13,
       "categoryName": "mobile",
       "categoryDisplayName": "Mobile",
-      "categoryDescription": "Formação mobile na Alura",
+      "categoryDescription": "Formação Mobile na Alura",
       "categoryColor": "#ffba05"
     },
     {
       "id": 14,
       "categoryName": "backend",
       "categoryDisplayName": "Backend",
-      "categoryDescription": "Formação backend na Alura",
-      "categoryColor": "#69953B"
+      "categoryDescription": "Formação Backend na Alura",
+      "categoryColor": "#fc4129"
     }
   ]
 }
