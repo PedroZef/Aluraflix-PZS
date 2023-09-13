@@ -8,10 +8,8 @@ import { useNavigate } from "react-router-dom";
 import { videos, categories } from "../../data/db.js";
 import { v4 as uuidv4 } from "uuid";
 
+
 export default function NovoVideo() {
-
- 
-
   const [title, setTitle] = useState("");
   const [videoLink, setVideoLink] = useState("");
   const [videoImgLink, setVideoImgLink] = useState("");
@@ -50,12 +48,11 @@ export default function NovoVideo() {
   };
 
   return (
-  
     
     <Container>
+      <h1 className={styles.novo}>Novo Video</h1>
       <form className={styles.form} onSubmit={onSave}>
         <div className={styles.main}>
-          
           <TextField
             className={styles.textField}
             id="filled-basic"
@@ -144,12 +141,7 @@ export default function NovoVideo() {
             </Button>
           </div>
         </div>
-
       </form>
-     
-
     </Container>
-
-    
   );
 }

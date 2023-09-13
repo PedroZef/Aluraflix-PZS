@@ -1,7 +1,16 @@
+
 .form {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10rem;
   padding-bottom: 10rem;
+}
+.novo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 60px;
 }
 
 .main {
@@ -60,18 +69,16 @@
   display: flex;
 }
 
-.header{
-  display: none;
-}
-
-
-@media(max-width: 420px) {
+@media(max-width: 400px) {
   .form{
     justify-content: center;
     align-items: center;
   
-  } 
- 
+  }
+  
+  img {
+    align-items: center;
+    justify-content: center;
+  }
 }
-
 

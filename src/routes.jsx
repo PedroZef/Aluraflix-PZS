@@ -17,7 +17,7 @@ function AppRoutes() {
             path="/novacategoria/editar/:id"
             element={<NovaCategoriaEditar />}
           />
-      
+        
         </Route>
       </Routes>
    
