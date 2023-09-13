@@ -11,16 +11,6 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/Z-N5Fr9P-GU/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=Z-N5Fr9P-GU",
   },
-  {
-    id: uuidv4(),
-    categoryName: "frontend",
-    categoryDisplayName: "Front End",
-    title: "O que é React JS",
-    description:
-      "Afinal, o que é React JS? Neste vídeo, Vanessa Tonini e Mario Souto explicam isto para você falando sobre como esta ferramenta surgiu, para que ela serve, quais são suas aplicações e relação com outras ferramentas e como começar a trabalhar com ele. ",
-    videoImgLink: "https://i.ytimg.com/vi/6IuQUgeDPg0/hq720.jpg",
-    videoLink: "https://www.youtube.com/watch?v=6IuQUgeDPg0",
-  },
 
   {
     id: uuidv4(),
@@ -32,7 +22,16 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/jK0uiQ1ZQQQ/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=jK0uiQ1ZQQQ",
   },
-
+  {
+    id: uuidv4(),
+    categoryName: "frontend",
+    categoryDisplayName: "Front End",
+    title: "O que é React JS",
+    description:
+      "Afinal, o que é React JS? Neste vídeo, Vanessa Tonini e Mario Souto explicam isto para você falando sobre como esta ferramenta surgiu, para que ela serve, quais são suas aplicações e relação com outras ferramentas e como começar a trabalhar com ele. ",
+    videoImgLink: "https://i.ytimg.com/vi/6IuQUgeDPg0/hq720.jpg",
+    videoLink: "https://www.youtube.com/watch?v=6IuQUgeDPg0",
+  },
   {
     id: uuidv4(),
     categoryName: "datascience",
@@ -104,6 +103,13 @@ let categories = [
   },
   {
     id: uuidv4(),
+    categoryName: "frontend",
+    categoryDisplayName: "Front End",
+    categoryDescription: "Formação Front End na Alura",
+    categoryColor: "#ffba05",
+  },
+  {
+    id: uuidv4(),
     categoryName: "datascience",
     categoryDisplayName: "Data Science",
     categoryDescription: "Formação Data Science na Alura",
@@ -116,6 +122,7 @@ let categories = [
     categoryDescription: "Formação Mobile na Alura",
     categoryColor: "#ffba05",
   },
-];
+  
+]
 
 export { videos, categories };

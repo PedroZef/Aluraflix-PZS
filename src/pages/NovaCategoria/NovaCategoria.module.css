@@ -1,3 +1,14 @@
 .container {
   padding-bottom: 10rem;
 }
+
+
+@media screen and (max-width: 425px) {
+  .container {
+      padding: 20px 12px 90px;
+  
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 30px;
+  }
+}

@@ -3,6 +3,11 @@
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
+.firstCarousel p {
+  display: flex;
+  text-align: center;
+}
 

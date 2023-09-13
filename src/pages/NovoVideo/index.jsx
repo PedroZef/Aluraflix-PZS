@@ -9,6 +9,9 @@ import { videos, categories } from "../../data/db.js";
 import { v4 as uuidv4 } from "uuid";
 
 export default function NovoVideo() {
+
+ 
+
   const [title, setTitle] = useState("");
   const [videoLink, setVideoLink] = useState("");
   const [videoImgLink, setVideoImgLink] = useState("");
@@ -141,7 +144,10 @@ export default function NovoVideo() {
             </Button>
           </div>
         </div>
+
       </form>
+     
+
     </Container>
 
     

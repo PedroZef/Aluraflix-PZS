@@ -17,9 +17,11 @@
   background-color:var(--color-black);
 }
 
-@media(max-width: 768px) {
-  img{
-    max-width: 320px;
-    height: 40px;
-}
+@media screen and (max-width: 425px) {
+  .container {
+      padding: 10px 8px 90px;
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 30px;
+  }
 }

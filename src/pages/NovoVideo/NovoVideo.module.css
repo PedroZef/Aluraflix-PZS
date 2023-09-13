@@ -60,10 +60,14 @@
   display: flex;
 }
 
+.header{
+  display: none;
+}
+
 
 @media(max-width: 420px) {
   .form{
-    display: flex;
+    justify-content: center;
     align-items: center;
   
   } 

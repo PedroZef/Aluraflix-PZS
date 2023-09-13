@@ -2,7 +2,6 @@
 
 import { Link } from "react-router-dom";
 import styles from "./Banner.module.css";
-import backgroundImage from "./bannerBG.png"
 
 export default function Banner({
   videoImgLink,
@@ -17,7 +16,7 @@ export default function Banner({
       <div
         className={styles.banner}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(${videoImgLink})`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(${videoImgLink})`,
         }}
       >
         <div className={styles.banner_left}>

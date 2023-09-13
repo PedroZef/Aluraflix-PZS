@@ -10,6 +10,7 @@
     "videoImgLink": "https://img.youtube.com/vi/Z-N5Fr9P-GU/maxresdefault.jpg",
     "videoLink": "https://www.youtube.com/watch?v=Z-N5Fr9P-GU"
     },
+ 
     {
       "id": 12,
       "categoryName": "frontend",
@@ -20,7 +21,6 @@
       "videoImgLink": "https://img.youtube.com/vi/jK0uiQ1ZQQQ/maxresdefault.jpg",
       "videoLink": "https://www.youtube.com/watch?v=jK0uiQ1ZQQQ"
     },
-
     {
       "id": 13,
       "categoryName": "frontend",
@@ -30,8 +30,6 @@
       "videoImgLink": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg",
       "videoLink": "https://www.youtube.com/watch?v=yS7AcF-xRUg"
     },
-    
-
     {
       "id": 14,
       "categoryName": "datascience",
@@ -71,8 +69,7 @@
       "videoImgLink": "https://img.youtube.com/vi/p4fiAiiPi3E/maxresdefault.jpg",
       "videoLink": "https://www.youtube.com/watch?v=p4fiAiiPi3E"
     },
-
-{
+    {
       "id": 18,
       "categoryName": "mobile",
       "categoryDisplayName": "Mobile",
@@ -91,10 +88,7 @@
       "videoImgLink": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg",
       "videoLink": "https://www.youtube.com/watch?v=412nsNqL8YE"
     }
-
-
   ],
-
 
   "categories": [
     {
