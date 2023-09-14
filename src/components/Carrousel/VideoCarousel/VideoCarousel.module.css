@@ -1,13 +1,11 @@
 .container {
- 
+  
   padding-bottom: 5rem;
   padding-top: 2rem;
   padding-left: 2rem;
-  justify-content: flex-start;
+
 }
 
-.react-multiple-carousel__arrow--right {
-  display: flex;
-}
+
 
 

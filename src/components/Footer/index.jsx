@@ -6,10 +6,9 @@ import logo from "../../assets/imagens/LogoFooter.png";
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-    
-        <img src={logo} alt="Logo Alura" />
-     
-      
+      <a href="https://github.com/PedroZef/Aluraflix-PZS">
+        <img src={logo} alt="Logo" />
+      </a>
     </footer>
   );
 }
