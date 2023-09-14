@@ -12,10 +12,10 @@
 .footer img {
   width: 15.78125rem;
   height: 3.75rem;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
   img {
     height: 40px;
   }

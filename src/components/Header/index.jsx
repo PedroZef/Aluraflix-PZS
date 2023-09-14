@@ -5,7 +5,7 @@ import Button from "../Button";
 import styles from "./Header.module.css";
 import logosm from "../../assets/imagens/LogoMenu.png";
 
-export default function Header({ children,  }) {
+export default function Header({ children }) {
   const navigate = useNavigate();
   const url = useLocation();
 
@@ -26,6 +26,3 @@ export default function Header({ children,  }) {
 
   );
 }
-
-
- 

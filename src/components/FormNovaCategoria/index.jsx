@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import styles from "./FormNovaCategoria.module.css";
 import TextField from "@mui/material/TextField";
 import Button from "../../components/Button";

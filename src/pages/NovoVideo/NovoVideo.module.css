@@ -1,18 +1,17 @@
-
 .form {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 
 }
 .novo {
   display: flex;
-  align-items: center;
-  color: var(--color-gray-white);
   justify-content: center;
-  margin-bottom: 2rem;
-  font-size: 60px;
+  align-items: center;
+  font-size: 40px;
+  font-family: 'Roboto';
 }
+
 
 .main {
   height: 50rem;
