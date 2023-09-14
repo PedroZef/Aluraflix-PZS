@@ -3,11 +3,12 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 10rem;
-  padding-bottom: 10rem;
+
 }
 .novo {
   display: flex;
   align-items: center;
+  color: var(--color-gray-white);
   justify-content: center;
   margin-bottom: 2rem;
   font-size: 60px;
