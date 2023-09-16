@@ -13,9 +13,9 @@ Tecnologias Utilizadas:
 
  Material UI
 
-# Deploy do projeto:https://aluraflix-pzs-vercel.vercel.app
+## Deploy do projeto:https://aluraflix-pzs-vercel.vercel.app
 
-# Badge :
+## Badge :
 
 [![Alt text](cms_files_10224_1673890211Prancheta_7.png)]
 
