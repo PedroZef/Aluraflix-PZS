@@ -1,5 +1,8 @@
 # Projeto Challenge Aluraflix Turma 5 da Alura + Oracle  
+![Alt text](logo.png)
 
+# Descrição do projeto
+Criação de site de streaming para fins educacionais..
 Projeto Challenge do Aluraflix-PZS é ser um Netflix da Alura. Nele você terá sugestões de vídeos relacionados com os seus interesses educacionais, além disso poderá adicionar novas categorias e novos videos.
 
 ## Aluraflix-PZS 
@@ -10,9 +13,11 @@ Tecnologias Utilizadas:
 
  Material UI
 
-Resultado:https://aluraflix-pzs-vercel.vercel.app
+# Deploy do projeto:https://aluraflix-pzs-vercel.vercel.app
 
-Link do Parabéns e badge:[!Badge-Aluraflix.png]
+# Badge :
+
+[![Alt text](cms_files_10224_1673890211Prancheta_7.png)]
 
 
 Currently, two official plugins are available:
