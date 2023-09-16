@@ -1,7 +1,11 @@
+
+
 .section {
   display: flex;
   padding-left: 3rem;
   align-items: center;
+ 
+  
 }
 
 .title {
@@ -20,7 +24,7 @@
   text-align: center;
 
   /* @title-small */
-  font-size: 2.1875rem;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -28,10 +32,23 @@
 
 .section p {
   color: var(--color-white);
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   /* @body-medium */
-  font-size: 1.125rem;
+  text-align: center;
+  font-size: 1.1rem;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   line-height: normal;
+
+}
+
+.react-multi-carousel-track {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  margin-bottom: 1rem;
+ 
 }

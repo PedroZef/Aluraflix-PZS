@@ -1,12 +1,12 @@
 .videoCard {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
+
   margin-bottom: 2rem;
-  left: 40px;
-  width: 20rem;
+  left: 20px;
+  width: 18rem;
   height: 14rem;
-  flex-shrink: 0;
   border-radius: 0.2rem;
 }
 
@@ -18,4 +18,11 @@
   height: 100%;
 }
 
+@media screen and (max-width: 425px) {
+  .videoCard {
+    display: flex;
+    width: 30%;
+  }
+  
+}
 

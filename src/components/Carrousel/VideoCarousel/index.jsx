@@ -2,7 +2,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import styles from "./VideoCarousel.module.css";
 import VideoCard from "../VideoCard";
-import { videos, categories } from "../../../data/db.js";
+import { videos, categories } from "../../../data/db";
 
 // eslint-disable-next-line react/prop-types
 export default function VideoCarousel({ categoria }) {

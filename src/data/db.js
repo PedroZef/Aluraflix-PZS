@@ -11,6 +11,17 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/Z-N5Fr9P-GU/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=Z-N5Fr9P-GU",
   },
+  {
+    id: uuidv4(),
+    categoryName: "frontend",
+    categoryDisplayName: "Front End",
+    title: "O que é React JS",
+    description:
+      "Afinal, o que é React JS? Neste vídeo, Vanessa Tonini e Mario Souto explicam isto para você falando sobre como esta ferramenta surgiu, para que ela serve, quais são suas aplicações e relação com outras ferramentas e como começar a trabalhar com ele. ",
+    videoImgLink: "https://i.ytimg.com/vi/6IuQUgeDPg0/hq720.jpg",
+    videoLink: "https://www.youtube.com/watch?v=6IuQUgeDPg0",
+  },
+
 
   {
     id: uuidv4(),
@@ -27,11 +38,11 @@ let videos = [
     id: uuidv4(),
     categoryName: "frontend",
     categoryDisplayName: "Front End",
-    title: "O que é React JS",
+    title: "Como deixar o Layout Responsivo no seu site | #AluraMais",
     description:
-      "Afinal, o que é React JS? Neste vídeo, Vanessa Tonini e Mario Souto explicam isto para você falando sobre como esta ferramenta surgiu, para que ela serve, quais são suas aplicações e relação com outras ferramentas e como começar a trabalhar com ele. ",
-    videoImgLink: "https://i.ytimg.com/vi/6IuQUgeDPg0/hq720.jpg",
-    videoLink: "https://www.youtube.com/watch?v=6IuQUgeDPg0",
+      "Aprenda responsividade na prática com este tutorial sobre como transformar seu site num layout responsivo através do uso de ferramentas de desenvolvedor do seu navegador, o visual studio code e códigos CSS: media screen, container, propriedades CSS e mais.",
+    videoImgLink: "https://img.youtube.com/vi/kyFiT4ofMwk/maxresdefault.jpg",
+    videoLink: "https://www.youtube.com/watch?v=kyFiT4ofMwk",
   },
 
   {
@@ -43,6 +54,7 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=Iuz_jc96bQk",
   },
+
   {
     id: uuidv4(),
     categoryName: "datascience",
@@ -63,7 +75,16 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/GkhuRcHsVMk/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=GkhuRcHsVMk",
   },
-
+  {
+    id: uuidv4(),
+    categoryName: "datascience",
+    categoryDisplayName: "Data Science",
+    title: "Trabalhando com arquivos no Google Colab | #AluraMais",
+    description:
+      "Neste vídeo, o Pedro Henrique, Instrutor aqui na Alura, vai ensinar você a usar arquivos corretamente no Google Collab. Vem mergulhar com a gente?",
+    videoImgLink: "https://img.youtube.com/vi/ojgvdqexJ0Q/maxresdefault.jpg",
+    videoLink: "https://www.youtube.com/watch?v=ojgvdqexJ0Q",
+  },
   {
     id: uuidv4(),
     categoryName: "mobile",
@@ -87,12 +108,21 @@ let videos = [
     id: uuidv4(),
     categoryName: "mobile",
     categoryDisplayName: "Mobile",
+    title: "Como criar temas customizados no Flutter | #AluraMais",
+    description: "Como utilizar Flutter Themes, customizar temas no seu aplicativo, usar cor primária e secundária, com o Dart.",
+    videoImgLink: "https://img.youtube.com/vi/412nsNqL8YE/maxresdefault.jpg",
+    videoLink: "https://www.youtube.com/watch?v=412nsNqL8YE",
+  },
+  {
+    id: uuidv4(),
+    categoryName: "mobile",
+    categoryDisplayName: "Mobile",
     title:
       "Logs no Android: boas práticas para otimização e aplicação | #AluraMais",
     description:
       "Neste Alura+, vamos conhecer algumas dicas e boas práticas que podem ajudar você na utilização de logs e otimizar o seu dia a dia como dev de app.",
-    videoImgLink: "https://img.youtube.com/vi/viRW15_qUZw/maxresdefault.jpg",
-    videoLink: "https://www.youtube.com/watch?v=viRW15_qUZw",
+    videoImgLink: "https://img.youtube.com/vi/sTnUwOVYZt0/maxresdefault.jpg",
+    videoLink: "https://www.youtube.com/watch?v=sTnUwOVYZt0",
   },
 ];
 
