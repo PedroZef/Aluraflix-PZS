@@ -7,7 +7,7 @@ export default function TitleCategory({
   categoryDescription,
 }) {
   return (
-    <section className={styles.section}>
+    <div className={styles.section}>
       <div
         className={styles.title}
         style={{ backgroundColor: `${categoryColor}` }}
@@ -15,6 +15,6 @@ export default function TitleCategory({
         <h2>{titleCategory}</h2>
       </div>
       <p>{categoryDescription}</p>
-    </section>
+    </div>
   );
 }

@@ -10,14 +10,10 @@
   --color-gray: #53585d;
   --color-black: #000;
 
- 
   color-scheme: light dark;
   background-color: var(--color-black);
-
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
-

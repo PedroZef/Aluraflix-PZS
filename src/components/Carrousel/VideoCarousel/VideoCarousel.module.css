@@ -1,9 +1,17 @@
 .container {
- 
+  display: flex;
   padding-bottom: 2rem;
   padding-top: 3rem;
-  padding-left: 3rem;
+  padding-left: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
 
+@media  screen and (max-width: 425px) {
+  .container {
+    display: flex; 
+  }
 }
 
 

@@ -21,7 +21,16 @@ let videos = [
     videoImgLink: "https://i.ytimg.com/vi/6IuQUgeDPg0/hq720.jpg",
     videoLink: "https://www.youtube.com/watch?v=6IuQUgeDPg0",
   },
-
+  {
+    id: uuidv4(),
+    categoryName: "frontend",
+    categoryDisplayName: "Front End",
+    title: "Como deixar o Layout Responsivo no seu site | #AluraMais",
+    description:
+      "Aprenda responsividade na prática com este tutorial sobre como transformar seu site num layout responsivo através do uso de ferramentas de desenvolvedor do seu navegador, o visual studio code e códigos CSS: media screen, container, propriedades CSS e mais.",
+    videoImgLink: "https://img.youtube.com/vi/kyFiT4ofMwk/maxresdefault.jpg",
+    videoLink: "https://www.youtube.com/watch?v=kyFiT4ofMwk",
+  },
 
   {
     id: uuidv4(),
@@ -34,16 +43,7 @@ let videos = [
     videoLink: "https://www.youtube.com/watch?v=jK0uiQ1ZQQQ",
   },
 
-  {
-    id: uuidv4(),
-    categoryName: "frontend",
-    categoryDisplayName: "Front End",
-    title: "Como deixar o Layout Responsivo no seu site | #AluraMais",
-    description:
-      "Aprenda responsividade na prática com este tutorial sobre como transformar seu site num layout responsivo através do uso de ferramentas de desenvolvedor do seu navegador, o visual studio code e códigos CSS: media screen, container, propriedades CSS e mais.",
-    videoImgLink: "https://img.youtube.com/vi/kyFiT4ofMwk/maxresdefault.jpg",
-    videoLink: "https://www.youtube.com/watch?v=kyFiT4ofMwk",
-  },
+  
 
   {
     id: uuidv4(),
@@ -85,14 +85,17 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/ojgvdqexJ0Q/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=ojgvdqexJ0Q",
   },
+
   {
     id: uuidv4(),
     categoryName: "mobile",
     categoryDisplayName: "Mobile",
-    title: "Criando e visualizando logs no Android | #AluraMais",
+    title: "Como criar temas customizados no Flutter | #AluraMais",
+    description: "Como utilizar Flutter Themes, customizar temas no seu aplicativo, usar cor primária e secundária, com o Dart.",
     videoImgLink: "https://img.youtube.com/vi/412nsNqL8YE/maxresdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=412nsNqL8YE",
   },
+ 
   {
     id: uuidv4(),
     categoryName: "mobile",
@@ -104,15 +107,19 @@ let videos = [
     videoImgLink: "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg",
     videoLink: "https://www.youtube.com/watch?v=ldRbnpy-qQs",
   },
+ 
   {
     id: uuidv4(),
     categoryName: "mobile",
     categoryDisplayName: "Mobile",
-    title: "Como criar temas customizados no Flutter | #AluraMais",
-    description: "Como utilizar Flutter Themes, customizar temas no seu aplicativo, usar cor primária e secundária, com o Dart.",
-    videoImgLink: "https://img.youtube.com/vi/412nsNqL8YE/maxresdefault.jpg",
-    videoLink: "https://www.youtube.com/watch?v=412nsNqL8YE",
+    title: "ConstraintLayout no Android | #AluraMais",
+    description:
+      "Neste #AluraMais, aJeniffer Bittencourt, Instrutora na Escola Mobile da Alura, vai mostrar algumas formas implementar e otimizar a criação de layouts maiores e mais complexos utilizando o Constraint Layout.",
+    videoImgLink: "https://img.youtube.com/vi/p4fiAiiPi3E/maxresdefault.jpg",
+    videoLink: "https://www.youtube.com/watch?v=p4fiAiiPi3E",
   },
+
+
   {
     id: uuidv4(),
     categoryName: "mobile",
@@ -126,33 +133,33 @@ let videos = [
   },
 ];
 
-let categories = [
+const categories = [
   {
     id: uuidv4(),
     categoryName: "frontend",
     categoryDisplayName: "Front End",
-    categoryDescription: "Formação Frontend na Alura",
+    categoryDescription: "Formação Front End",
     categoryColor: "#6bd1ff",
   },
   {
     id: uuidv4(),
     categoryName: "frontend",
     categoryDisplayName: "Front End",
-    categoryDescription: "Formação Front End na Alura",
+    categoryDescription: "Formação Front End",
     categoryColor: "#ffba05",
   },
   {
     id: uuidv4(),
     categoryName: "datascience",
     categoryDisplayName: "Data Science",
-    categoryDescription: "Formação Data Science na Alura",
+    categoryDescription: "Formação DataScience",
     categoryColor: "#69953b",
   },
   {
     id: uuidv4(),
     categoryName: "mobile",
     categoryDisplayName: "Mobile",
-    categoryDescription: "Formação Mobile na Alura",
+    categoryDescription: "Formação Mobile",
     categoryColor: "#ffba05",
   },
 ];

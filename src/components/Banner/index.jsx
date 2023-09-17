@@ -12,7 +12,7 @@ export default function Banner({
   categoryColor,
 }) {
   return (
-    <>
+    <section className={styles.container}>
       <div
         className={styles.banner}
         style={{
@@ -44,6 +44,6 @@ export default function Banner({
           </Link>
         </div>
       </div>
-    </>
+    </section>
   );
 }

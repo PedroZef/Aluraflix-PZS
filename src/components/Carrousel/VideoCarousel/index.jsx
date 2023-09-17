@@ -29,7 +29,8 @@ export default function VideoCarousel({ categoria }) {
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile", "backend"]}
       dotListClass="custom-dot-list-style"
-      itemClass="carousel-item-padding-40-px"
+      itemClass="carousel-item-padding-30-px"
+      
       className={styles.container}
     >
       {videos.map((video) => {

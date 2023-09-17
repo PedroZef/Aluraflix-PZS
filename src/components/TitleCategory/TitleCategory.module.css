@@ -1,54 +1,56 @@
-
-
 .section {
   display: flex;
-  padding-left: 3rem;
+  padding-left: 6rem;
   align-items: center;
- 
+  flex-wrap: wrap;
   
 }
 
 .title {
   display: flex;
   width: 12.75rem;
-  height: 3.75rem;
+  height: 3.8rem;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   border-radius: 4px;
-  padding: 0.25rem;
+ 
 }
 
 .title h2 {
   color: var(--color-white);
   text-align: center;
-
+ 
   /* @title-small */
   font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
 }
 
-.section p {
+  p {
   color: var(--color-white);
-  padding-left: 1rem;
   /* @body-medium */
-  text-align: center;
-  font-size: 1.1rem;
+  
+  font-size: 1.2rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
+  margin-left: .5rem;
+  font-weight: 300;
+  align-items: center;
 }
 
-.react-multi-carousel-track {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  transform-style: preserve-3d;
-  backface-visibility: hidden;
-  margin-bottom: 1rem;
- 
+@media screen and (max-width: 425px) {
+   .section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+  }
+
+  p {
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
 }
