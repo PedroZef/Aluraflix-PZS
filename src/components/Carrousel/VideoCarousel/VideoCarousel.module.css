@@ -2,15 +2,27 @@
   display: flex;
   padding-bottom: 2rem;
   padding-top: 3rem;
-  padding-left: 1.2rem;
+  padding-left: 1rem;
   flex-wrap: wrap;
   justify-content: space-between;
  
 }
 
+ img{
+  align-items: center;
+  display: flex;
+ 
+}
+
 @media  screen and (max-width: 425px) {
-  .container {
-    display: flex; 
+.react-multi-carousel-list {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+
+  .firstCarousel {
+    max-width: 100%;
   }
 }
 

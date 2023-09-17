@@ -12,7 +12,7 @@ export default function Banner({
   categoryColor,
 }) {
   return (
-    <section className={styles.container}>
+    <section className={styles.bamer_p}>
       <div
         className={styles.banner}
         style={{

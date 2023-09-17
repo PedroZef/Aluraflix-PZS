@@ -1,22 +1,25 @@
-.container {
+.section {
   display: flex;
   width: 100%;
   height: 100%;
+}
 
+.banner_p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner_left {
+  padding: 1.5rem;
 }
 
 .banner {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
-  height: 810px;
+  width: 100%;
+  height: 770px;
   display: flex;
   align-items: center;
-  
-}
-
-.banner_left {
-  padding: 2.94rem;
 }
 
 .title {
@@ -28,13 +31,11 @@
   max-width: fit-content;
   height: 5.75rem;
   flex-shrink: 0;
-  margin-bottom: 3.5rem;
-
+  margin-bottom: 2rem;
 }
 .title h1 {
-
   color: var(--color-gray-light);
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -54,31 +55,36 @@
   flex-shrink: 0;
   justify-content: center;
 }
-
 .description p {
+  align-items: center;
   color: var(--color-gray-light);
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 300;
-  align-items: center;
+
   line-height: normal;
   justify-content: center;
 }
 
 .player {
-  width: 30rem;
-  height: 20rem;
+  width: 25rem;
+  height: 15rem;
   flex-shrink: 0;
   border-radius: 0.2rem;
-  margin-right: 2rem;
-  
 }
 
 .player img {
+ 
   width: 100%;
   height: 100%;
-  
 }
 
+@media screen and (max-width: 740px) {
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 
-
+}

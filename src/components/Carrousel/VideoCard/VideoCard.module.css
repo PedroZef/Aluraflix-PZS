@@ -1,4 +1,17 @@
-.videoCard {
+.firstCarousel {
+  align-items: center;
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  left: 20px;
+  width: 18rem;
+  height: 14rem;
+  border-radius: 0.2rem;
+}
+.videoCard  {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -17,15 +30,14 @@
 }
 
 @media screen and (max-width: 425px) {
-  .container {
+  .firstCarousel {
     display: flex;
+    justify-content: space-between;
+  
   }
 
-  .videoCard img {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+  .firstCarousel {
+    max-width: 100%;
   }
   
 }
