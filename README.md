@@ -13,11 +13,15 @@ Tecnologias Utilizadas:
 
  Material UI
 
+ React-Multi-Carousel
+
+ Json-Server
+
 ## Deploy do projeto:https://aluraflix-pzs-vercel.vercel.app
 
 ## Badge :
 
-[![Alt text](cms_files_10224_1673890211Prancheta_7.png)]
+[![Alt text](cms_files_Prancheta_7.png)]
 
 
 Currently, two official plugins are available:
