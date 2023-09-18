@@ -3,17 +3,24 @@
   display: flex;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  padding-left: 3.5rem;
+  padding-left: 3.1rem;
   align-items: center;
   
  
 }
-
  .videocard img {
   display: flex;
   align-items: center;
   display: flex;
  
+}
+
+@media screen and (max-width: 425px) {
+  .react-multi-carousel-list {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+  }
 }
 
 

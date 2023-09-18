@@ -1,6 +1,7 @@
 .firstCarousel {
   align-items: flex-start;
   display: flex;
+
   gap: 3rem;
 }
 

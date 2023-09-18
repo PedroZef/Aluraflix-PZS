@@ -48,7 +48,7 @@
   
   }
 
-  p {
+  .description p {
     align-items: center;
     display: flex;
     text-align: center;

@@ -16,17 +16,9 @@
   width: 100%;
   height: 100%;
 }
-
-@media screen and (max-width: 425px) {
-  .firstCarousel {
-    display: flex;
-    justify-content: space-between;
-  
-  }
-
-  .firstCarousel {
-    max-width: 100%;
-  }
-  
+.react-multi-carousel-list {
+  display: flex;
+  justify-content: center;
 }
+
 
