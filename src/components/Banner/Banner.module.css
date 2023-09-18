@@ -1,16 +1,14 @@
 .section {
-  display: flex;
   width: 100%;
   height: 100%;
 }
 
 .banner_p {
-  display: flex;
-  justify-content: space-between;
+  margin-bottom: 4rem;
 }
 
 .banner_left {
-  padding: 1.5rem;
+  padding: 5rem;
 }
 
 .banner {
@@ -20,6 +18,8 @@
   height: 770px;
   display: flex;
   align-items: center;
+  padding-left: 1rem;
+
 }
 
 .title {
@@ -32,6 +32,7 @@
   height: 5.75rem;
   flex-shrink: 0;
   margin-bottom: 2rem;
+
 }
 .title h1 {
   color: var(--color-gray-light);
@@ -47,14 +48,16 @@
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .description {
-  width: 41rem;
-  height: 6.875rem;
+  width: 30rem;
   flex-shrink: 0;
-  justify-content: center;
+
 }
+
 .description p {
   align-items: center;
   color: var(--color-gray-light);
@@ -67,24 +70,27 @@
 }
 
 .player {
-  width: 25rem;
+  width: 35rem;
   height: 15rem;
   flex-shrink: 0;
   border-radius: 0.2rem;
 }
 
 .player img {
- 
+  display: flex;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 740px) {
   .banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
   }
 
+  .banner img {
+    width: 70%;
+    height: auto;
+  }
+
 }
+

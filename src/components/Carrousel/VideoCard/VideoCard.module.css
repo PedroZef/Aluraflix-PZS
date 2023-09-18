@@ -1,16 +1,4 @@
-.firstCarousel {
-  align-items: center;
-  display: flex;
-  margin-top: 1rem;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-bottom: 2rem;
-  left: 20px;
-  width: 18rem;
-  height: 14rem;
-  border-radius: 0.2rem;
-}
+
 .videoCard  {
   display: flex;
   justify-content: space-between;

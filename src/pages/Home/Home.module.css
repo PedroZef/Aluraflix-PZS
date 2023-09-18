@@ -1,8 +1,8 @@
 .firstCarousel {
+  align-items: flex-start;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   gap: 3rem;
 }
+
+
 
