@@ -9,7 +9,7 @@
 }
 
 .main {
-  height: 50rem;
+  height: 40rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -18,7 +18,7 @@
 
 .form h1 {
   color: var(--color-gray-light);
-  font-size: 3.75rem;
+  font-size: 3.5rem;
   font-style: normal;
   font-weight: 400;
   font-family: Roboto;
