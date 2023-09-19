@@ -13,12 +13,12 @@ export default function VideoCarousel({ categoria }) {
       slidesToSlide: 4, // optional
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1023, min: 464 },
       items: 2,
-      slidesToSlide: 2 // optional, default to 1.
+      slidesToSlide: 3 // optional, default to 1.
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 463, min: 0 },
       items: 1,
       slidesToSlide: 1 // optional, default to 1.
     }
@@ -27,12 +27,12 @@ export default function VideoCarousel({ categoria }) {
   return (
     <Carousel
     className={styles.container}
-      swipeable={false}
-      draggable={false}
+      swipeable={true}
+      draggable={true}
       showDots={true}
       responsive={responsive}
       ssr={true} // means to render carousel on server-side.
-      infinite={true}
+      infinite={false}
 
       // autoPlay={this.props.deviceType !== "mobile" ? true : false}
       autoPlaySpeed={1000}

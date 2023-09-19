@@ -10,11 +10,6 @@ export default function Home() {
   const [videochosen, setVideoChosen] = useState(videos[0]);
   const [categoryColorBanner, setcategoryColorBanner] = useState("");
 
-  if (categories.length === 0) {
-    return <NaoEncontrada />;
-  }
-
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     const categoryBanner = categories.find(
       (category) => category.categoryName === videochosen.categoryName
@@ -27,8 +22,14 @@ export default function Home() {
       );
       setVideoChosen(newVideoChosen);
       setcategoryColorBanner(newCategoryBanner.categoryColor);
-    } else setcategoryColorBanner(categoryBanner.categoryColor);
+    } else {
+      setcategoryColorBanner(categoryBanner.categoryColor);
+    }
   }, [videochosen.categoryName]);
+
+  if (categories.length === 0) {
+    return <NaoEncontrada />;
+  }
 
   return (
     <>
@@ -44,8 +45,8 @@ export default function Home() {
         const videoExist = videos.some(
           (video) => video.categoryName === category.categoryName
         );
-        return videoExist ? (
-          category.categoryName !== videochosen.categoryName ? (
+        if (videoExist && category.categoryName !== videochosen.categoryName) {
+          return (
             <div key={category.id}>
               <TitleCategory
                 categoryColor={category.categoryColor}
@@ -54,8 +55,10 @@ export default function Home() {
               />
               <VideoCarousel categoria={category.categoryName} />
             </div>
-          ) : null
-        ) : null;
+          );
+        } else {
+          return null;
+        }
       })}
     </>
   );

@@ -80,8 +80,8 @@
   gap: 2rem;
 }
 
-@media(max-width: 400px) {
-  .table{
+@media(max-width: 464px) {
+  .main {
     display: flex;
     align-items: center;
     text-align: center;

@@ -1,8 +1,8 @@
 .container {
-  width: auto;
+  width: 100%;
   display: flex;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-left: 3.1rem;
   align-items: center;
   
@@ -17,9 +17,9 @@
 
 @media screen and (max-width: 425px) {
   .react-multi-carousel-list {
-    margin: 0 auto;
+    
     width: 100%;
-    padding: 0 10px;
+    padding: 10px;
   }
 }
 

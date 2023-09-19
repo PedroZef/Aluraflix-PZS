@@ -12,14 +12,14 @@ export default function Banner({
   categoryColor,
 }) {
   return (
-    <section className={styles.bamer_p}>
+    <section className={styles.banner_p}>
       <div
         className={styles.banner}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.59)), url(${videoImgLink})`,
+          backgroundImage: ` linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)), url(${videoImgLink})`,
         }}
       >
-        <div className={styles.bamer_p}>
+        <div className={styles.banner_p}>
           <div
             className={styles.title}
             style={{ backgroundColor: `${categoryColor}` }}

@@ -1,5 +1,5 @@
 # Projeto Challenge Aluraflix Turma 5 da Alura + Oracle  
-![Alt text](logo.png)
+![Alt text](logoPrevia.png)
 
 # Descrição do projeto
 Criação de site de streaming para fins educacionais..
@@ -21,7 +21,7 @@ Tecnologias Utilizadas:
 
 ## Badge :
 
-[![Alt text](cms_files_Prancheta_7.png)]
+[![Alt text](Prancheta_7.png)]
 
 
 Currently, two official plugins are available:
