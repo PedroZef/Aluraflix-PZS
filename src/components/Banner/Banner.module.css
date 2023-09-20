@@ -1,5 +1,6 @@
-.banner_p {
+.container {
   margin-bottom: 2rem;
+  margin-left: 2&;
 }
 
 .banner {
@@ -12,7 +13,7 @@
 }
 
 .banner_left {
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .title {
@@ -27,7 +28,7 @@
   margin-bottom: 2.5rem;
 }
 .title h1 {
-  padding: 0.25;
+  padding: 0.25rem;
   color: var(--color-gray-light);
   font-size: 3.75rem;
   font-style: normal;
@@ -36,6 +37,8 @@
 }
 
 .subtitle h2 {
+
+  padding: 0.25rem;
   color: var(--color-gray-light);
   font-size: 3rem;
   font-style: normal;
@@ -71,15 +74,20 @@
   height: 100%;
 }
 
-@media screen and (max-width: 764px) {
-  .banner {
+@media screen and  (max-width: 764px) {
+  .banner,
+  h2 {
+    padding: 0.25rem;
     flex-wrap: wrap;
   }
-
-  .banner img {
+  .description p {
+    display: flex;
     width: 90%;
-    height: 90% ;
+   
   }
-
+  .banner img {
+    margin-top: 3.5rem;
+    width: 90%;
+    height: 90%;
+  }
 }
-
