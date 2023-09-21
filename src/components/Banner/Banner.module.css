@@ -1,6 +1,6 @@
 .container {
   margin-bottom: 2rem;
-  margin-left: 2&;
+  margin-left: 2%;
 }
 
 .banner {
@@ -24,8 +24,8 @@
   min-width: 18.5rem;
   max-width: fit-content;
   height: 5.75rem;
-  flex-shrink: 0;
-  margin-bottom: 2.5rem;
+  flex-shrink: 1;
+  margin-bottom: 1.5rem;
 }
 .title h1 {
   padding: 0.25rem;
@@ -37,24 +37,23 @@
 }
 
 .subtitle h2 {
-
   padding: 0.25rem;
   color: var(--color-gray-light);
   font-size: 3rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: normal;
 }
 
 .description {
   width: 41rem;
   height: 6.875rem;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .description p {
   color: var(--color-gray-light);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -74,19 +73,18 @@
   height: 100%;
 }
 
-@media screen and  (max-width: 764px) {
-  .banner,
-  h2 {
-    padding: 0.25rem;
+@media screen and (max-width: 664px) {
+  .banner {
+    padding: 0.2rem;
     flex-wrap: wrap;
+    width: 100%;
   }
-  .description p {
+  .description {
     display: flex;
-    width: 90%;
-   
+    width: 100%;
   }
   .banner img {
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     width: 90%;
     height: 90%;
   }

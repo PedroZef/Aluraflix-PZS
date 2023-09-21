@@ -55,7 +55,7 @@
 
 .buttons {
   display: flex;
-  width: 100%;
+  width: 90%;
   justify-content: space-between;
 }
 
@@ -66,18 +66,14 @@
 
 .buttonsRight {
   display: flex;
+  justify-content: center;
 }
 
-@media(max-width: 400px) {
-  .form{
-    justify-content: center;
-    align-items: center;
-  
-  }
-  
-  img {
-    align-items: center;
-    justify-content: center;
-  }
+@media screen and (max-width: 664px) {
+    .buttonsLeft {
+      flex-wrap: wrap; 
+      margin-left: 0.75rem;
+    }
+
 }
 
