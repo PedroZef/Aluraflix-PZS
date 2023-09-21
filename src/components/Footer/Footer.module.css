@@ -1,18 +1,23 @@
 .footer {
   width: 100%;
   height: 5.125rem;
-  border-top: var(--color-primary) solid 1px;
+  border-top: var(--color-primary) solid 2px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
   padding-bottom: 3rem;
+ 
 }
 
 .footer img {
   width: 15.78125rem;
   height: 3.75rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
+}
+
+.footer p {
+  text-decoration: none;
 }
 
 @media (max-width: 425px) {

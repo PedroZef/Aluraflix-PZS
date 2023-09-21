@@ -3,6 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 import styles from "./VideoCarousel.module.css";
 import VideoCard from "../VideoCard";
 import { videos, categories } from "../../../data/db";
+import { useContext } from "react";
 
 // eslint-disable-next-line react/prop-types
 export default function VideoCarousel({ categoria }) {
@@ -44,7 +45,6 @@ export default function VideoCarousel({ categoria }) {
       dotListClass="custom-dot-list-style"
       itemClass="carousel-item-padding-40-px"
       
-    
     >
       {videos.map((video) => {
         if (video.categoryName === categoria) {
@@ -54,7 +54,7 @@ export default function VideoCarousel({ categoria }) {
               categoryColor={
                 categories.find(
                   (category) => category.categoryName === categoria
-                ) === undefined
+                ) === useContext
                   ? "#fff"
                   : categories.find(
                       (category) => category.categoryName === categoria

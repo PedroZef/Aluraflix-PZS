@@ -8,6 +8,9 @@ export default function Footer() {
     <footer className={styles.footer}>
       <a href="https://github.com/PedroZef/Aluraflix-PZS">
         <img src={logo} alt="Logo" />
+        <p>
+          <span className={styles.dev}>Pedro Zeferino da Silva 2023</span>
+        </p>
       </a>
     </footer>
   );
